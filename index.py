@@ -5,6 +5,7 @@ import os
 # Menú de Opciones con Condicionales y Operadores Relacionales
 # ******************************************************************************************
 
+# Función para mostrar el menú al usuario en la consola
 def mostrar_menu():
     print("\n************ MENÚ DE OPCIONES ***************")
     print(" 1. Calcular rango de edad")
@@ -14,6 +15,7 @@ def mostrar_menu():
     print(" 5. Salir")
     print("*********************************************\n")
 
+# Función para mostrar el resultado en formato tabla
 def imprimir_tabla(encabezados, filas):
     # Convertir todo a texto
     filas = [[str(dato) for dato in fila] for fila in filas]
